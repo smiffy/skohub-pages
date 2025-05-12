@@ -1,0 +1,12 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix w3i: <https://w3id.org/>.
+
+w3i:
+    a skos:ConceptScheme;
+    dct:description "hmc skos tutorial skos schema"@en;
+    dct:title "Bicycle"@en;
+    skos:hasTopConcept w3i:5e501 .
+w3i:5e501 a skos:Concept; skos:prefLabel "fische"@de; skos:topConceptOf w3i: .
+
+
